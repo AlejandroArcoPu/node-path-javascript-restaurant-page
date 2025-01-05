@@ -192,13 +192,26 @@ ul {
     font-size: 1.5rem;
   }
   .menu {
-    gap: 8px;
+    gap: 5px;
   }
 
   .about-page {
     .location {
       width: 300px;
       height: 300px;
+    }
+  }
+  .menu-page {
+    .steps {
+      .small {
+        width: 80px;
+      }
+      .regular {
+        width: 100px;
+      }
+      .large {
+        width: 120px;
+      }
     }
   }
 }
