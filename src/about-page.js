@@ -6,7 +6,6 @@ export const displayAbout = () => {
   body.appendChild(initialMain);
 
   const sectionWelcome = document.createElement("section");
-  sectionWelcome.classList = "welcome";
   const welcomeTitle = document.createElement("h2");
   welcomeTitle.textContent = "WELCOME TO BEAST POKE BOWL!";
   const welcomeSubtitle = document.createElement("p");
@@ -16,7 +15,6 @@ export const displayAbout = () => {
   campImg.src = camping;
 
   const sectionContact = document.createElement("section");
-  sectionContact.classList = "contact";
   const titleContact = document.createElement("h2");
   titleContact.textContent = "Contact us!";
   const subtitleContact = document.createElement("p");
@@ -24,10 +22,9 @@ export const displayAbout = () => {
   sectionContact.appendChild(titleContact);
   sectionContact.appendChild(subtitleContact);
 
-  const sectionWhere = document.createElement("section");
-  sectionWhere.classList = "where";
+  const sectionLocation = document.createElement("section");
   const titleWhere = document.createElement("h2");
-  sectionWhere.appendChild(titleWhere);
+  sectionLocation.appendChild(titleWhere);
   titleWhere.textContent = "Location";
   const mapFrame = document.createElement("iframe");
   mapFrame.src =
@@ -35,12 +32,12 @@ export const displayAbout = () => {
   mapFrame.classList = "location";
   mapFrame.style = "border: 2px solid black";
   mapFrame.loading = "lazy";
-  sectionWhere.appendChild(mapFrame);
+  sectionLocation.appendChild(mapFrame);
 
   sectionWelcome.appendChild(welcomeTitle);
   sectionWelcome.appendChild(welcomeSubtitle);
   initialMain.appendChild(sectionWelcome);
   initialMain.appendChild(sectionContact);
-  initialMain.appendChild(sectionWhere);
+  initialMain.appendChild(sectionLocation);
   initialMain.appendChild(campImg);
 };
