@@ -159,4 +159,46 @@ ul {
 
 .about-page {
   font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  gap: 20px;
+  p {
+    max-width: 800px;
+  }
+  img {
+    max-width: 400px;
+  }
+  .location {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  header {
+    margin: 10px 20px;
+    padding: 10px 20px;
+    .poke-logo {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .home-page,
+  .menu-page,
+  .about-page {
+    font-size: 1.5rem;
+  }
+  .menu {
+    gap: 8px;
+  }
+
+  .about-page {
+    .location {
+      width: 300px;
+      height: 300px;
+    }
+  }
 }

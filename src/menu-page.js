@@ -92,11 +92,11 @@ export const displayMenu = () => {
 
   const step1TypesDiv = document.createElement("div");
   const step1Rice1 = document.createElement("p");
-  step1Rice1.innerHTML = "White <strong>Rice</strong>";
+  step1Rice1.innerHTML = "White <strong>Rice</strong> 🍚";
   const step1Rice2 = document.createElement("p");
-  step1Rice2.innerHTML = "Brown <strong>Rice</strong>";
+  step1Rice2.innerHTML = "Brown <strong>Rice</strong> 🍚";
   const step1Greens = document.createElement("p");
-  step1Greens.innerHTML = "Mixed <strong>Greens</strong>";
+  step1Greens.innerHTML = "Mixed <strong>Greens</strong> 🥦";
   section1.appendChild(step1Title);
   step1TypesDiv.appendChild(step1Rice1);
   step1TypesDiv.appendChild(step1Rice2);
@@ -113,13 +113,13 @@ export const displayMenu = () => {
   const step2TypesDiv = document.createElement("div");
   step2TypesDiv.classList = "group-size";
   const step2Salmon = document.createElement("p");
-  step2Salmon.textContent = "Salmon";
+  step2Salmon.textContent = "Salmon 🍣";
   const step2Tuna = document.createElement("p");
-  step2Tuna.textContent = "Tuna";
+  step2Tuna.textContent = "Tuna 🐟";
   const step2Tofu = document.createElement("p");
-  step2Tofu.textContent = "Tofu";
+  step2Tofu.textContent = "Tofu 🧈";
   const step2Chicken = document.createElement("p");
-  step2Chicken.textContent = "Chicken";
+  step2Chicken.textContent = "Chicken 🐔";
   step2TypesDiv.appendChild(step2Salmon);
   step2TypesDiv.appendChild(step2Tuna);
   step2TypesDiv.appendChild(step2Tofu);
@@ -136,13 +136,13 @@ export const displayMenu = () => {
 
   const step3TypesDiv = document.createElement("div");
   const step3Onion = document.createElement("p");
-  step3Onion.textContent = "Onion";
+  step3Onion.textContent = "Onion 🧅";
   const step3Cucumber = document.createElement("p");
-  step3Cucumber.textContent = "Cucumber";
+  step3Cucumber.textContent = "Cucumber 🥒";
   const step3Avocado = document.createElement("p");
-  step3Avocado.textContent = "Avocado";
+  step3Avocado.textContent = "Avocado 🥑";
   const step3Cilantro = document.createElement("p");
-  step3Cilantro.textContent = "Cilantro";
+  step3Cilantro.textContent = "Cilantro 🌿";
   step3TypesDiv.appendChild(step3Onion);
   step3TypesDiv.appendChild(step3Cucumber);
   step3TypesDiv.appendChild(step3Avocado);
