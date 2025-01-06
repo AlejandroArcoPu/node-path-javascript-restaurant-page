@@ -199,7 +199,11 @@ header {
   }
 
   .menu {
-    gap: 0rem;
+    gap: 0px;
+  }
+
+  .social-media {
+    gap: 0.5rem;
   }
 
   .social-media img {
