@@ -108,6 +108,7 @@ header {
   background-color: #68eda6;
   transition: box-shadow 0.2s;
   cursor: pointer;
+  border: 2px solid black;
 }
 .button-order:hover {
   background-color: #409467;
@@ -198,7 +199,7 @@ header {
   }
 
   .menu {
-    gap: 0.5rem;
+    gap: 0rem;
   }
 
   .social-media img {
