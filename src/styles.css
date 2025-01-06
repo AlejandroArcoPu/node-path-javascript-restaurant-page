@@ -44,12 +44,12 @@ header {
   font-size: 1.5rem;
 }
 
-header .poke-logo {
+.poke-logo {
   width: 60px;
   height: 60px;
 }
 
-header .menu {
+.menu {
   display: flex;
   gap: 20px;
 }
@@ -120,46 +120,49 @@ header .menu {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  .separator {
-    width: 500px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-  }
-  .steps {
-    display: grid;
-    justify-items: center;
-    width: 100%;
-    gap: 20px;
-    .section-steps {
-      width: 100%;
-      text-align: center;
-    }
-    .steps-titles {
-      background-color: black;
-      color: white;
-      margin-bottom: 10px;
-    }
-    .group-size {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-    }
+}
 
-    .sizes-in {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .small {
-      width: 100px;
-    }
-    .regular {
-      width: 120px;
-    }
-    .large {
-      width: 160px;
-    }
-  }
+.separator {
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.steps {
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.section-steps {
+  width: 100%;
+  text-align: center;
+}
+.steps-titles {
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+}
+.group-size {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sizes-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.small {
+  width: 100px;
+}
+.regular {
+  width: 120px;
+}
+.large {
+  width: 160px;
 }
 
 .about-page {
@@ -170,16 +173,17 @@ header .menu {
   text-align: center;
   padding: 20px;
   gap: 20px;
-  p {
-    max-width: 800px;
-  }
-  img {
-    max-width: 400px;
-  }
-  .location {
-    width: 400px;
-    height: 400px;
-  }
+}
+
+.about-page p {
+  max-width: 800px;
+}
+.about-page img {
+  max-width: 400px;
+}
+.location {
+  width: 400px;
+  height: 400px;
 }
 
 @media (max-width: 560px) {
@@ -187,40 +191,41 @@ header .menu {
     margin: 10px 20px;
     padding: 10px 20px;
   }
-  header .poke-logo {
+
+  .poke-logo {
     max-width: 2.5rem;
     height: 2.5rem;
   }
+
+  .menu {
+    gap: 0.5rem;
+  }
+
   .social-media img {
     width: 1.5rem;
     height: 1.5rem;
   }
+
   .home-page,
   .menu-page,
   .about-page {
     font-size: 1.5rem;
   }
-  .menu {
-    gap: 0.5rem;
+
+  .location {
+    width: 300px;
+    height: 300px;
   }
 
-  .about-page {
-    .location {
-      width: 300px;
-      height: 300px;
-    }
+  .small {
+    width: 4rem;
   }
-  .menu-page {
-    .steps {
-      .small {
-        width: 4rem;
-      }
-      .regular {
-        width: 5rem;
-      }
-      .large {
-        width: 6rem;
-      }
-    }
+
+  .regular {
+    width: 5rem;
+  }
+
+  .large {
+    width: 6rem;
   }
 }
