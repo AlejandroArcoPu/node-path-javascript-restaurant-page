@@ -37,10 +37,11 @@ header {
   padding: 10px 40px;
   margin: 30px 50px;
   font-size: 1.5rem;
-  .poke-logo {
-    width: 60px;
-    height: 60px;
-  }
+}
+
+.poke-logo {
+  width: 60px;
+  height: 60px;
 }
 
 .button-selected {
@@ -180,10 +181,10 @@ ul {
   header {
     margin: 10px 20px;
     padding: 10px 20px;
-    .poke-logo {
-      max-width: 2.5rem;
-      height: 2.5rem;
-    }
+  }
+  .poke-logo {
+    max-width: 2.5rem;
+    height: 2.5rem;
   }
   .social-media {
     img {
