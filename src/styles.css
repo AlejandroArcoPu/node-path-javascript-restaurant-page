@@ -181,13 +181,13 @@ ul {
     margin: 10px 20px;
     padding: 10px 20px;
     .poke-logo {
-      width: 40px;
+      max-width: 40px;
       height: 40px;
     }
   }
   .social-media {
     img {
-      width: 20px;
+      max-width: 20px;
     }
   }
   .home-page,
@@ -196,7 +196,7 @@ ul {
     font-size: 1.5rem;
   }
   .menu {
-    gap: 5px;
+    gap: 0px;
   }
 
   .about-page {
@@ -208,13 +208,13 @@ ul {
   .menu-page {
     .steps {
       .small {
-        width: 80px;
+        max-width: 80px;
       }
       .regular {
-        width: 100px;
+        max-width: 100px;
       }
       .large {
-        width: 120px;
+        max-width: 120px;
       }
     }
   }
