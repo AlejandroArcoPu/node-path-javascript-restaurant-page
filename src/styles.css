@@ -44,49 +44,48 @@ header {
   font-size: 1.5rem;
 }
 
-.poke-logo {
+header .poke-logo {
   width: 60px;
   height: 60px;
+}
+
+header .menu {
+  display: flex;
+  gap: 20px;
 }
 
 .button-selected {
   border: none;
   text-decoration: underline;
   font-weight: bold;
+  background-color: #edf0e9;
+  color: black;
 }
 
-.menu {
-  display: flex;
-  gap: 20px;
-}
-
-.menu-button,
-.home-button,
-.about-button {
+.menu button {
   border: none;
   background-color: #edf0e9;
   color: black;
 }
-.menu-button:hover,
-.home-button:hover,
-.about-button:hover {
+.menu button:hover {
   text-decoration: underline;
 }
 
 .social-media {
   display: flex;
   gap: 15px;
-  li {
-    padding: 0;
-    transition: transform 0.2s;
-  }
-  li:hover {
-    transform: scale(1.5);
-  }
-  img {
-    width: 30px;
-    vertical-align: middle;
-  }
+}
+
+.social-media li {
+  padding: 0;
+  transition: transform 0.2s;
+}
+.social-media li:hover {
+  transform: scale(1.5);
+}
+.social-media img {
+  width: 30px;
+  vertical-align: middle;
 }
 
 .home-page {
@@ -96,23 +95,23 @@ header {
   flex-direction: column;
   gap: 30px;
   padding: 20px;
-  h1,
-  p {
-    max-width: 800px;
-    text-align: center;
-  }
-  .button-order {
-    color: black;
-    padding: 10px 20px;
-    border-radius: 50px;
-    background-color: #68eda6;
-    transition: box-shadow 0.2s;
-    cursor: pointer;
-  }
-  .button-order:hover {
-    background-color: #409467;
-    box-shadow: 5px 5px 0px black;
-  }
+}
+.home-page h1,
+.home-page p {
+  max-width: 800px;
+  text-align: center;
+}
+.button-order {
+  color: black;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #68eda6;
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+}
+.button-order:hover {
+  background-color: #409467;
+  box-shadow: 5px 5px 0px black;
 }
 
 .menu-page {
@@ -188,15 +187,13 @@ header {
     margin: 10px 20px;
     padding: 10px 20px;
   }
-  .poke-logo {
+  header .poke-logo {
     max-width: 2.5rem;
     height: 2.5rem;
   }
-  .social-media {
-    img {
-      width: 1.5rem;
-      height: 1.5rem;
-    }
+  .social-media img {
+    width: 1.5rem;
+    height: 1.5rem;
   }
   .home-page,
   .menu-page,
